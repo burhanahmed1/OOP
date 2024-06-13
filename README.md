@@ -564,7 +564,50 @@ needed to implement the notion of SAFE ELASTIC ARRAYS.
 
 
 # Task18 :
+This assignment is about implementing a new classes to represent a 2D matrix. A 2D matrix is a
+rectangular array of numbers arranged in M rows and N columns. Some examples matrices are shown
+below and are commonly used to represent transformation of vectors, system of equations, graphs
+images, computation graphs and many other interesting objects.
+For the matrices used in algebra, several binary operations (i.e. operations involving two matrices) are
+defined on the set of all possible matrices with each binary operations combining two matrices to form
+a new matrix. Some well-known binary operations defined on the set of all matrices are listed below.
 
+List of Binary Operations Defined on Matrices
+
+Plus, Minus, Multiply, Divide (Matrix (+\-\*\ /) Matrix, Matrix (+\-\*\ /) = Matrix ) where
+division can be point by point division or some other definition of division
+
+Assignment operation (Matrix = Matrix)
+
+Add/subtract/multiply/divide a constant with a Matrix ( Matrix (+\-\*\ /) C, and C (+\-\*\ /) Matrix)
+where C is a constant
+Several unary operations can also be applied on matrices where a unary operation generates a new
+matrix from a given input matrix. Several unary operations defined on matrices are listed below
+
+List of Unary Operations Defined on Matrices
+
+Transpose of a matrix, Trace of a square matrix, power of a matrix (point by point power) and
+Apply a function to each element of the matrix point by point (study about function pointers and see
+if you can come up with a generic implementation)
+
+For this assignment you must design a hierarchy of two classes named dynamic2DArray and Matrix
+respectively.
+The dynamic2DArray class will be used to create a 2D array of real numbers having M rows and N
+columns with M and N being non-negative integers representing the size of the matrix. At minimum,
+you must provide the following functionality for this class.
+I/O from an I/O stream by overloading the stream operations and I/O from a file
+
+Changing size of the array
+
+Safe access of any element of the array by specifying index. Make sure that user is allowed to use
+any index (positive or negative value) with -1 representing the last valid index -2 the second last ...
+The Matrix class will inherit the functionality of dynamic2DArray class and extend it by providing
+all the binary and unary operations defined in the lists of binary and unary operations defined above.
+
+You are also required to provide a program (main function) that will allow the user to demonstrate
+each of the function created in the two classes. It might be a good idea to create a menu for the user
+to test your functionality.
+You will submit the assignment in three parts
 
 # Task19 :
-
+Creating Lists by using concepts of OOP
