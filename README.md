@@ -190,11 +190,45 @@ the program converts that character into an uppercase character. ASCII of ‘A�
 32.
 
 
-
-
-
 # Task12 :
+Task1:
+Write a class called Fraction that represents a fraction (i.e., a rational number). Overload the +, -, *, and
+/ operators to allow addition, subtraction, multiplication, and division of two fractions. The class should
+also implement a method called simplify() that simplifies the fraction to lowest terms. The class should
+have the following attributes: numerator (the numerator of the fraction) and denominator (the
+denominator of the fraction).
 
+Task2:
+Write a class called String that represents a string. Overload the + operator to allow concatenation of
+two strings. The class should also implement a method called reverse() that reverses the string. The
+class should have the following attribute: str (the string).
+
+Task3:
+Write a class called Vector that represents a 1D vector of integers. Overload the - operator to allow
+negation of a vector (i.e., negate each element of the vector). The class should also implement a method
+called magnitude() that returns the magnitude of the vector. The class should have the following
+attributes: size (the size of the vector) and elements (an array of integers representing the elements of
+the vector).
+
+Task4:
+Write a class called ComplexNumber that represents a complex number. Overload the ++ and --
+operators to allow incrementing and decrementing the real and imaginary parts of the complex
+number. The class should have the following attributes: real (the real part of the complex number) and
+imag (the imaginary part of the complex number).
+
+Task5:
+1. Declare and define a class Set representing a set of integers. A set is a collection of data
+without repetition or ordering. The class should have only private data members: a
+pointer to a dynamically allocated array of integers and an integer that holds the size of
+the set. The following shows the operators to be defined for a set.
+Member Functions:
+2. A constructor to create an empty set.
+3. A destructor.
+4. A function to add element to the set. (A set has no duplicate elements, so
+design add function accordingly. Also make sure set remain in ascending
+order and newly added elements are inserted in their correct positions)
+5. A binary friend function to get the union of two sets (overload the + operator).
+6. A binary friend function to determine the difference of two sets (overload the – operator)
 
 # Task13 :
 
