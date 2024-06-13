@@ -275,9 +275,49 @@ Add a member function void print() in the Person class. This method should print
 of the person.
 
 # Task14 :
+Exercise 0 Creating Inheritance relationship:
+1. Create a class shape with functions and member as shown in figure
+2. Create classes circle square and rectangle as sub classes of class shape
+3. Each sub class of shape should override a calculate area of class shape according the
+given formula in figure.
+4. Your classes should have overloaded constructors that will take the member variables as
+input.
 
+Exercise 1 Test Case:
+
+Exercise 2 Virtual functions:
+What if we wanted to use the definition of the derived class function?
+To accomplish this, we can add the keyword virtual to the declaration of the area() method in
+the shape class.
+Specifying a function as virtual makes sure that whenever we use a base class pointer/ref
+pointing to an object of a derived class to call a function, the definition of the method declared in
+the derived class is used.
+Modify the area method of the shape class as shown below, compile your code, and execute it
+virtual float area()
+
+Exercise 3a Use of Polymorphism, parent pointer as function parameter:
+In the above exercises, we have seen a very simple implementation of Polymorphism. The real
+power of this feature is realized when we have a collection of objects of multiple derived classes
+and we use a pointer of the base class to call their respective overloaded methods. Or you can
+pass derived class object to a function with formal parameter of base class type.
+Create a function sumArea that takes two shapes of any type and return the sum of their area
+(shape/rectangle/circle etc...). Note that sumArea is a nonmember function, you can declare is
+above your main function. Prototype of function is given.
+
+Exercise 3b Use of polymorphism, keeping sibling types in same array:
+Another advantage of polymorphism is to keep the object of different sub types of same parent
+class in one array. The array will be on parent class pointer type.
+As an exercise create take 5 shapes as input from user. Store these in one array.
+In one loop print the area of these shapes.
+Use following pseudo code to take input from user (although a better way will be to overload
+extraction operator)
+
+Exercise 4 Virtual Destructors:
 
 # Task15 :
+
+
+#Task16 : 
 
 
 # Task16 :
