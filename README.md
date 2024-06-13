@@ -13,6 +13,7 @@ Task5 : A C++ program where you create an integer array of size 10. Your program
 Task6 : Write a program that keeps taking integer input from the user until user enters -1 and displays the data in reverse order.
 
 Task7:
+
   Q # 1:-
   Take two arrays of integers A and B of sizes M and N respectively (M and N taken from User).Then you need to mix these arrays into a third array named C such that the followingsequence is followed.
   All even numbers of A from left to right are copied into C from left to right.
@@ -34,6 +35,52 @@ Task7:
   • Now implement another function int reduceArray(int* arr, int*& amp; arr1, int size) that
     asks user to enter size to reduce the array.To reduce the array remove the elements of the arr
     from the start and copy remaining into arr1.Use copyArray function to copy.
+
+Task8 :
+
+Q # 1 :
+1. Write a function that reads n elements into a one dimensional integer array. Your
+function must have the following prototype void cin_Array( int arr[], int n)
+2. Write a function that display the first n elements into a one dimensional integer array.
+Your function must have the following form also called the function prototype
+void cout_Array( const int arr[], int n)
+3. Write a function that computes the frequency of each digit in all the numbers stored in
+an integer array of size N. The function will have the following prototype
+void Digit_Frequency( const int Numbers[], int N, int F[])
+
+Q # 2 : 
+1. Write a function int* InputArray(int&amp; size) that asks user to enter size of required array,
+allocates the memory on heap, takes input in array and returns its pointer.
+2. Write a program void OutputArray(int* myArray, const int&amp; size) that takes a pointer to
+an integer array and prints its data.
+3. Implement a function int* Intersection(int* setA, int&amp; size1, int* setB, int&amp; size2, int&amp;
+size3) that finds intersection (common elements) of two sets (stored using arrays).
+
+Q # 3 :
+a) Write a function int** AllocateMemory(int&amp; rows, int&amp; cols) that takes size
+of matrix (rows and columns) from user, allocates memory for the matrix and
+return its pointer.
+b) Write a function void InputMatrix(int** matrix, const int rows, const int
+cols) which takes input the values in matrix from user(console).
+c) Write a function void DisplayMatrix(int** matrix, const int&amp; rows, const
+int&amp; cols) that displays the matrix in proper format.
+d) Write a function called maxCol that takes as parameters a pointer to a 2D
+array and its dimensions. It should return the largest element in each column
+of the array. Since there is more than one column in 2D array, you have to
+return a dunamic array that contains largest of each column. 
+For example, if the Sample Matrix is
+1 4 8
+9 1 6
+5 7 2
+Your function will return array containing maximum elements of all the
+columns i.e.
+9, 7, 8
+e) Write a function void DeallocateMemory(int** matrix, const int&amp; rows) that
+deallocates all the memory.
+f) (Concatinate tables ) It takes two 2D arrays and returns a new 2D array that
+is concation on y or x axis.
+int ** concat_table (int **table1, int **table2, int row1, int col1, int row2, int
+col2, bool axis); //axis 0 mean x axis 1 means Y axis.
 
 
 
