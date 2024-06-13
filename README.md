@@ -157,6 +157,40 @@ Task2:
 
 
 # Task11 :
+Exercise 0: Template Practice
+
+Exercise 1: Template Functions: 
+Write Template function for performing arithmetic operation of type int, float, double, long.
+
+Exercise 2: Template Function and Overloading :
+1. Write two function templates GetMax and GetMin that take two arguments and return the
+maximum and minimum of the two respectively.
+2. Then paste the following code in your source file and run the program. The program should
+run peacefully.
+3. Now remove the <int> and <long> from the code above and execute again. Does the
+program still work?
+4. Now replace the main function above with the main given below. You will need to change
+the code (declaration and definition) for GetMin and GetMax so that the following code
+works without an error.
+5. Now remove the <int,long> and <int,char> from this new main and re-run the program, is
+there any trouble with this version?
+6. Now overload these template functions so that the maximum and minimum of 3 numbers
+could be found.
+
+Exercise 3: Template Specialization: 
+If we want to define a different implementation for a template when a specific type is passed as
+template parameter, we can declare a specialization of that template.
+Consider a template function increment, that receives a variable (it can be int, double, float etc)
+and increase the value of that variable by 1.
+Now Write a template specialization for char * variables (character arrays) that convert all letters
+of character arrays to upper case.
+Hint:
+Lowercase characters ASCII range from 97 to 122. If the character is found to be in this range then
+the program converts that character into an uppercase character. ASCII of ‘A’ and ‘a’ differs by
+32.
+
+
+
 
 
 # Task12 :
