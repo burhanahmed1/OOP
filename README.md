@@ -8,5 +8,8 @@ Task3 : Write a C++ program that creates a pointer to an integer and print the f
 
 Task4 : Write a C++ program that finds and prints the median of following three integers using their pointers.
 
+Task5 : A C++ program where you create an integer array of size 10. Your program will add 3 to each element of the array.You have to add to the elements using pointer only.Array subscript notation cannot be used(neither in addition nor while printing resultant array).
+
+
 
 
