@@ -395,8 +395,151 @@ Note:
 1. Follow all the code indentation, naming conventions and code commenting guidelines.
 2. Make sure your program is executable.
 
-#Task16 : 
+# Task16 : 
+Exercise 0: Template Practice
+Consider the definition of the following function template:
+template <class type>
+type surprise(type x, type y)
+{
+return x + y;
+}
+Understand the code. What is the output of the following statements? Make a .cpp file to execute
+this code and add the output as comments in this file.
+1. cout << surprise(5, 7) << endl;
+2. string str1 = "Sunny";
+string str2 = " Day";
+cout << surprise(str1, str2) << endl;
 
+Exercise 1: Template Functions
+Write Template function for performing arithmetic operation of type int, float, double, long. Main
+for this function is given below.
+void main()
+{
+
+int a, b; // this can be float, int or double too
+char op;
+cout << "Enter first operand ";
+cin >> a;
+cout << "Enter second operand ";
+cin >> b;
+cout << "Enter operation ";
+cin >> op; // op can be +, -, * or /
+if (op == '*' || op == '+' || op == '-' || op == '/')
+{
+performOperation(a, b, op);
+}
+else
+{
+cout << "Wrong operation";
+}
+}
+Exercise 2: Template Function and Overloading
+1. Write two function templates GetMax and GetMin that take two arguments and return the
+maximum and minimum of the two respectively.
+2. Then paste the following code in your source file and run the program. The program should
+run peacefully.
+int main ()
+{
+int i=5, j=6, k;
+long l=10, m=5, n;
+k=GetMax<int>(i,j);
+n=GetMin<long>(l,m);
+cout << k << endl;
+cout << n << endl;
+return 0;
+}
+3. Now remove the <int> and <long> from the code above and execute again. Does the
+program still work?
+4. Now replace the main function above with the main given below. You will need to change
+the code (declaration and definition) for GetMin and GetMax so that the following code
+works without an error.
+
+int main ()
+{
+char i=’Z’;
+int j=6, k;
+long l=10, m=5, n;
+k=GetMax<int,long>(i,m);
+n=GetMin<int,char>(j,l);
+cout << k << endl;
+cout << n << endl;
+return 0;
+}
+
+5. Now remove the <int,long> and <int,char> from this new main and re-run the program, is
+there any trouble with this version?
+6. Now overload these template functions so that the maximum and minimum of 3 numbers
+could be found.
+
+Exercise 3: Template Specialization
+If we want to define a different implementation for a template when a specific type is passed as
+template parameter, we can declare a specialization of that template.
+template <>
+char* maximum <char*>(char* x, char * y)
+{
+if (strcmp(x,y)==1)
+return x;
+else
+return y;
+
+}
+Consider a template function increment, that receives a variable (it can be int, double, float etc)
+and increase the value of that variable by 1.
+Now Write a template specialization for char * variables (character arrays) that convert all letters
+of character arrays to upper case.
+Hint:
+Lowercase characters ASCII range from 97 to 122. If the character is found to be in this range then
+the program converts that character into an uppercase character. ASCII of ‘A’ and ‘a’ differs by
+32.
+
+Exercise 4: Exception Handling Practice
+Consider the following C++ code:
+int numOfItems;
+double unitCost;
+try
+{
+cout << "Enter the number of items: ";
+cin >> numOfItems;
+cout << endl;
+if (numOfItems < 0)
+throw numOfItems;
+cout << "Enter the cost of one item: ";
+cin >> unitCost;
+cout << endl;
+if (unitCost < 0)
+throw unitCost;
+cout << "Total cost: $"
+<< numOfItems * unitCost << endl;
+
+}
+catch (int num)
+{
+cout << "Negative number of items: " << num
+<< endl;
+cout << "Number of items must be nonnegative."
+<< endl;
+
+}
+catch (double dec)
+{
+cout << "Negative unit cost: " << dec
+<< endl;
+cout << "Unit cost must be nonnegative."
+<< endl;
+
+}
+Answer the following:
+1. What is the output if the input is 25 5.50?
+2. What is the output if the input is -55 2.8?
+3. What is the output if the input is 37 -4.5?
+4. What is the output if the input is -10 -2.5?
+
+Exercise 5: Exception Handling Problem
+Write a program that prompts the user to enter a person’s date of birth in numeric form such as 8-27-
+1980. The program then outputs the date of birth in the form: August 27, 1980. Your program must
+contain three exception classes: invalidDay, invalidMonth, and invalidYear. If the user enters an
+invalid value for day, then the program should throw and catch an invalidDay object. Follow similar
+convention for the invalid values of month. Handle leap year value with invalidYear exception.
 
 
 
