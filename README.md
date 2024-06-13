@@ -91,7 +91,27 @@ int ** concat_table (int **table1, int **table2, int row1, int col1, int row2, i
 col2, bool axis); //axis 0 mean x axis 1 means Y axis.
 
 # Task9 :
+Exercise 0 :Creating Inheritance relationship:
 
+1. Create a class shape with functions and member as shown in figure.
+2. Create classes circle square and rectangle as sub classes of class shape
+3. Each sub class of shape should override a calculate area of class shape according the
+given formula in figure.
+4. Your classes should have overloaded constructors that will take the member variables as
+input.
+
+Exercise 1 Test Case:
+
+Exercise 2 Virtual functions:
+
+Exercise 3a Use of Polymorphism, parent pointer as function parameter:Create a function sumArea that takes two shapes of any type and return the sum of their area
+(shape/rectangle/circle etc...). Note that sumArea is a nonmember function, you can declare is
+above your main function.
+
+Exercise 3b Use of polymorphism, keeping sibling types in same array:As an exercise create take 5 shapes as input from user. Store these in one array.
+In one loop print the area of these shapes.
+
+Exercise 4 Virtual Destructors:
 
 # Task10 :
 Task1:
