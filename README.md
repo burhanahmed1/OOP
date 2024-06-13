@@ -320,8 +320,6 @@ Teacher, & AdministratorTeacher.
 2. Faculty inherits Administrator and Teacher. While AdministratorTeacher has two
 parents Administrator and Teacher which represents that an Administrator can be a
 Teacher and vice versa
-
-Task 1:
 3. Add a print() method to Faculty, Administrator, and Teacher which displays the class
 name.
 4. In the driver, create a pointer array of 3 Faculty objects.
@@ -334,7 +332,6 @@ behavior.
 9. This time you will encounter an error. It occurs because the AdministratorTeacher object
 shows ambiguous behavior when calling the print() method (It does not know which print
 method it should call)
-
 10. To resolve this issue, we are going to use virtual inheritance. First, make the print() method
 pure virtual in Faculty. And add a print() method in the AdministratorTeacher class as
 well. Qualify or override this print() method by calling the print() of either Teacher or
@@ -344,9 +341,6 @@ Administrator specifically.
 Teacher and Administrator classes.
 13. Execute the program again. This time you will observe that correct class names are displayed
 on console.
-
-
-Task 2:
 14. Each faculty member is assigned an id by the university. To represent this, add an get_id()
 method to both Administrator and Teacher which returns a unique integer number.
 15. Call the get_id() method using the AdministratorTeacher object. Observe the error. Can
