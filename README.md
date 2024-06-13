@@ -541,6 +541,30 @@ contain three exception classes: invalidDay, invalidMonth, and invalidYear. If t
 invalid value for day, then the program should throw and catch an invalidDay object. Follow similar
 convention for the invalid values of month. Handle leap year value with invalidYear exception.
 
+# Task17 :
+In this assignment we are going to extend C++ by implementing a new way of creating arrays in C++.
+This array like structure will be elastic in the sense that the programmer using it will be able to change
+the size and dimensions of the array during program execution. Initially support will be provided for
+up to 3 dimensions and hence programmer will be allowed to use an array either as a 1D, 2D or 3D
+array as per need.
+
+Programmer using these arrays will be allowed to use both non-negative and negative indices to access
+the data stored in these arrays and the arrays will be safe in the sense that the programmer will be
+unable to access an index that is not part of the array or in other words each integer will be mapped to
+a valid index in the array.
+
+To implement this notion we will need to keep a record of number of dimensions and size of each
+dimension of the array along with the memory area reserved to store the array data. As discussed in
+class, for this assignment we will keep this information in a structure/record defined using the struct
+defining facility available in the language.
+
+A proposed struct definition and some basic functions have been defined for your convenience and
+your main responsibility is to complete this definition and provide definition of all necessary functions
+needed to implement the notion of SAFE ELASTIC ARRAYS.
 
 
+# Task18 :
+
+
+# Task19 :
 
