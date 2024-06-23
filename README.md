@@ -1,24 +1,24 @@
-# OOP with C++
+# Object Oriented Programming using C++
 
-# Task1 : 
-Write the following code and observe the output.
+<h2>Task1 : </h2>
+<p>Write the following code and observe the output.</p>
 
-# Task2 : 
+<h2>Task2 :</h2> 
 Given two integers x and y, find and print their sum using pointers.
 
-# Task3 : 
+<h2>Task3 :</h2> 
 Write a C++ program that creates a pointer to an integer and print the following: Square of the integer, cube of the integer, half of the integer.
 
-# Task4 : 
+<h2>Task4 :</h2> 
 Write a C++ program that finds and prints the median of following three integers using their pointers.
 
-# Task5 : 
+<h2>Task5 :</h2> 
 A C++ program where you create an integer array of size 10. Your program will add 3 to each element of the array.You have to add to the elements using pointer only.Array subscript notation cannot be used(neither in addition nor while printing resultant array).
 
-# Task6 : 
+<h2>Task6 :</h2> 
 Write a program that keeps taking integer input from the user until user enters -1 and displays the data in reverse order.
 
-# Task7 :
+<h2>Task7 :</h2> 
   Q # 1:-
   
   Take two arrays of integers A and B of sizes M and N respectively (M and N taken from User).Then you need to mix these arrays into a third array named C such that the followingsequence is followed.
@@ -44,7 +44,7 @@ Write a program that keeps taking integer input from the user until user enters 
     asks user to enter size to reduce the array.To reduce the array remove the elements of the arr
     from the start and copy remaining into arr1.Use copyArray function to copy.
 
-# Task8 :
+<h2>Task8 :</h2> 
 Q # 1 :
 1. Write a function that reads n elements into a one dimensional integer array. Your
 function must have the following prototype void cin_Array( int arr[], int n)
@@ -90,7 +90,7 @@ is concation on y or x axis.
 int ** concat_table (int **table1, int **table2, int row1, int col1, int row2, int
 col2, bool axis); //axis 0 mean x axis 1 means Y axis.
 
-# Task9 :
+<h2>Task9 :</h2> 
 Exercise 0 :Creating Inheritance relationship:
 
 1. Create a class shape with functions and member as shown in figure.
@@ -113,7 +113,7 @@ In one loop print the area of these shapes.
 
 Exercise 4 Virtual Destructors:
 
-# Task10 :
+<h2>Task10 :</h2> 
 Task1:
 
 1- Create a class named Rectangle.
@@ -156,7 +156,7 @@ Task2:
 
 
 
-# Task11 :
+<h2>Task11 :</h2> 
 Exercise 0: Template Practice
 
 Exercise 1: Template Functions: 
@@ -190,7 +190,7 @@ the program converts that character into an uppercase character. ASCII of ‘A�
 32.
 
 
-# Task12 :
+<h2>Task12 :</h2> 
 Task1:
 Write a class called Fraction that represents a fraction (i.e., a rational number). Overload the +, -, *, and
 / operators to allow addition, subtraction, multiplication, and division of two fractions. The class should
@@ -230,7 +230,7 @@ order and newly added elements are inserted in their correct positions)
 5. A binary friend function to get the union of two sets (overload the + operator).
 6. A binary friend function to determine the difference of two sets (overload the – operator)
 
-# Task13 :
+<h2>Task13 :</h2> 
 Exercise 1:
 Consider the following hierarchy as it exists in a university:
 1. There are two types of persons in the university i.e. Student and Faculty
@@ -274,7 +274,7 @@ Exercise 7: Overriding parent functions:
 Add a member function void print() in the Person class. This method should print the name and age
 of the person.
 
-# Task14 :
+<h2>Task14 :</h2> 
 Exercise 0 Creating Inheritance relationship:
 1. Create a class shape with functions and member as shown in figure
 2. Create classes circle square and rectangle as sub classes of class shape
@@ -314,7 +314,7 @@ extraction operator)
 
 Exercise 4 Virtual Destructors:
 
-# Task15 :
+<h2>Task15 :</h2> 
 1. For simplicity, create a single .cpp file with the following classes: Faculty, Administrator,
 Teacher, & AdministratorTeacher.
 2. Faculty inherits Administrator and Teacher. While AdministratorTeacher has two
@@ -395,7 +395,7 @@ Note:
 1. Follow all the code indentation, naming conventions and code commenting guidelines.
 2. Make sure your program is executable.
 
-# Task16 : 
+<h2>Task16 :</h2> 
 Exercise 0: Template Practice
 Consider the definition of the following function template:
 template <class type>
@@ -541,7 +541,7 @@ contain three exception classes: invalidDay, invalidMonth, and invalidYear. If t
 invalid value for day, then the program should throw and catch an invalidDay object. Follow similar
 convention for the invalid values of month. Handle leap year value with invalidYear exception.
 
-# Task17 :
+<h2>Task17 :</h2> 
 In this assignment we are going to extend C++ by implementing a new way of creating arrays in C++.
 This array like structure will be elastic in the sense that the programmer using it will be able to change
 the size and dimensions of the array during program execution. Initially support will be provided for
@@ -563,7 +563,7 @@ your main responsibility is to complete this definition and provide definition o
 needed to implement the notion of SAFE ELASTIC ARRAYS.
 
 
-# Task18 :
+<h2>Task18 :</h2> 
 This assignment is about implementing a new classes to represent a 2D matrix. A 2D matrix is a
 rectangular array of numbers arranged in M rows and N columns. Some examples matrices are shown
 below and are commonly used to represent transformation of vectors, system of equations, graphs
@@ -609,5 +609,5 @@ each of the function created in the two classes. It might be a good idea to crea
 to test your functionality.
 You will submit the assignment in three parts
 
-# Task19 :
+<h2>Task19 :</h2> 
 Creating Lists by using concepts of OOP
